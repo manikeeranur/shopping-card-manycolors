@@ -5,7 +5,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -16,25 +19,174 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="card bg-secondary col-lg-3 my-5 mx-auto align-items-center">
+    <!-- ....navbar.... -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top">
+      <a class="navbar-brand text-white" href="#">
+        Shopping<i
+          class="fa fa-shopping-cart text-white border p-2 rounded-circle ml-2"
+          aria-hidden="true"
+        ></i
+      ></a>
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Shoping Items</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- .shopping cart..... -->
+    <div class="container-fluid mx-auto mt-5 row py-5">
+      <div class="card bg-light col-lg m-1 align-items-center">
         <div class="card-body">
-          <img class="img-fluid" src="./images/watches_black.png" alt="" />
+          <img class="img-fluid polo" src="./images/polo_shirt/polo_shirt_black.png" alt="" />
         </div>
-        <div class="card-title row m-auto">
-          <div class="m-2 black box-border"></div>
-          <div class="m-2 blue"></div>
-          <div class="m-2 green"></div>
-          <div class="m-2 red"></div>
-          <div class="m-2 yellow"></div>
+        <div class="card-title polo_shirt row m-auto">
+          <span id="polo_1" class="mx-2 black"></span>
+          <span id="polo_2" class="mx-2 blue"></span>
+          <span id="polo_3" class="mx-2 green"></span>
+          <span id="polo_4" class="mx-2 red"></span>
+          <span id="polo_5" class="mx-2 yellow"></span>
         </div>
         <div class="card-text text-center">
-          <p class="lead text-white font-weight-bold">Amount:$149</p>
-          <p class="lead text-white font-weight-bold">10% offer</p>
+          <small class="font-weight-bold">Amount:150.RS</small>
+          <br />
+          <small class="font-weight-bold">10% offer</small>
         </div>
         <div class="card-footer">
           <div class="btn btn-success btn-sm">Buy Now</div>
-          <div class="btn btn-warning btn-sm">Add Cart</div>
+          <div class="btn btn-warning btn-sm">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light col-lg m-1 align-items-center">
+        <div class="card-body">
+          <img class="img-fluid tshirt001" src="./images/tshirt001/tshirt001_black.png" alt="" />
+        </div>
+        <div class="card-title row m-auto">
+          <span id="tshirt001_black" class="mx-2 black"></span>
+          <span id="tshirt001_blue" class="mx-2 blue"></span>
+          <span id="tshirt001_green" class="mx-2 green"></span>
+          <span id="tshirt001_red" class="mx-2 red"></span>
+          <span id="tshirt001_yellow" class="mx-2 yellow"></span>
+        </div>
+        <div class="card-text text-center">
+          <small class="font-weight-bold">Amount:200.RS</small>
+          <br />
+          <small class="font-weight-bold">10% offer</small>
+        </div>
+        <div class="card-footer">
+          <div class="btn btn-success btn-sm">Buy Now</div>
+          <div class="btn btn-warning btn-sm">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light col-lg m-1 align-items-center">
+        <div class="card-body">
+          <img class="img-fluid tshirt002" src="./images/tshirt002/tshirt002_black.png" alt="" />
+        </div>
+        <div class="card-title row m-auto">
+          <span id="tshirt002_black" class="mx-2 black"></span>
+          <span id="tshirt002_blue" class="mx-2 blue"></span>
+          <span id="tshirt002_green" class="mx-2 green"></span>
+          <span id="tshirt002_red" class="mx-2 red"></span>
+          <span id="tshirt002_yellow" class="mx-2 yellow"></span>
+        </div>
+        <div class="card-text text-center">
+          <small class="font-weight-bold">Amount:120.RS</small>
+          <br />
+          <small class="font-weight-bold">10% offer</small>
+        </div>
+        <div class="card-footer">
+          <div class="btn btn-success btn-sm">Buy Now</div>
+          <div class="btn btn-warning btn-sm">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light col-lg m-1 align-items-center">
+        <div class="card-body">
+          <img class="img-fluid shirt001" src="./images/shirt001/shirt001_black.png" alt="" />
+        </div>
+        <div class="card-title row m-auto">
+          <span id="shirt001_black" class="mx-2 black"></span>
+          <span id="shirt001_blue" class="mx-2 blue"></span>
+          <span id="shirt001_green" class="mx-2 green"></span>
+          <span id="shirt001_red" class="mx-2 red"></span>
+          <span id="shirt001_yellow" class="mx-2 yellow"></span>
+        </div>
+        <div class="card-text text-center">
+          <small class="font-weight-bold">Amount:300.RS</small>
+          <br />
+          <small class="font-weight-bold">10% offer</small>
+        </div>
+        <div class="card-footer">
+          <div class="btn btn-success btn-sm">Buy Now</div>
+          <div class="btn btn-warning btn-sm">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light col-lg m-1 align-items-center">
+        <div class="card-body">
+          <img class="img-fluid shirt002" src="./images/shirt002/shirt002_black.png" alt="" />
+        </div>
+        <div class="card-title row m-auto">
+          <span id="shirt002_black" class="mx-2 black"></span>
+          <span id="shirt002_blue" class="mx-2 blue"></span>
+          <span id="shirt002_green" class="mx-2 green"></span>
+          <span id="shirt002_red" class="mx-2 red"></span>
+          <span id="shirt002_yellow" class="mx-2 yellow"></span>
+        </div>
+        <div class="card-text text-center">
+          <small class="font-weight-bold">Amount:370.RS</small>
+          <br />
+          <small class="font-weight-bold">10% offer</small>
+        </div>
+        <div class="card-footer">
+          <div class="btn btn-success btn-sm">Buy Now</div>
+          <div class="btn btn-warning btn-sm">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light col-lg m-1 align-items-center">
+        <div class="card-body">
+          <img class="img-fluid watches" src="./images/watches/watches_black.png" alt="" />
+        </div>
+        <div class="card-title row m-auto">
+          <span id="watches_black" class="mx-2 black"></span>
+          <span id="watches_blue" class="mx-2 blue"></span>
+          <span id="watches_green" class="mx-2 green"></span>
+          <span id="watches_red" class="mx-2 red"></span>
+          <span id="watches_yellow" class="mx-2 yellow"></span>
+        </div>
+        <div class="card-text text-center">
+          <small class="font-weight-bold">Amount:365.RS</small>
+          <br />
+          <small class="font-weight-bold">10% offer</small>
+        </div>
+        <div class="card-footer">
+          <div class="btn btn-success btn-sm">Buy Now</div>
+          <div class="btn btn-warning btn-sm">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
         </div>
       </div>
     </div>
